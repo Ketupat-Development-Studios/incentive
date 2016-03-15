@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" id="html" style="overflow:hidden;">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Loading Bootstrap -->
+		<link href="dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Loading Flat UI -->
+		<link href="dist/css/flat-ui.css" rel="stylesheet">
+		<link href="docs/assets/css/demo.css" rel="stylesheet">
+
+		<link href="css/popup.css" rel="stylesheet">
+	</head>
+	<body id="body">
+		<div id="header">
+			<div>
+				<img src="img/banner-new.png" alt="logo" style="border:none;height:60px;width:300px;" />
+			</div>
+			<a id="signupBtn" style="cursor:pointer;top:15px;right:40px;position:absolute"><span class="fui-user"></span></a>
+			<a id="logoutBtn" style="cursor:pointer;top:15px;right:10px;position:absolute"><span class="fui-exit"></span></a>
+		</div>
+		
+		<div id="logged-in" style="display:none;">
+			<div class="row" style="padding-top:5px;">
+				<p class="col-xs-8"> Total Expenditure: </p>
+				<p class="col-xs-4" id='disp-moneyTot'> $00.00 </p>
+			</div>
+			<div class="row" style="padding-top:5px;">
+				<p class="col-xs-8" style="font-size: 90%;"> Taxed Amount: </p>
+				<p class="col-xs-4" id='disp-taxTot'> $00.00 </p>
+			</div>
+			<div id="disp-data">
+				<div class="accordion" id="disp-dataGroup">
+					<div class="accordion-group">
+						<div id="disp-tax-bkg" class="accordion-heading">
+							<a id="disp-tax-toggle" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#disp-dataGroup" href="#collapseOne">
+								<div class="row">
+									<div class="col-xs-9">
+										Spending History
+									</div>
+									<div class="col-xs-3">
+										<span id="disp-tax" class="fui-triangle-down-small pull-right"></span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div id="collapseOne" class="accordion-body collapse in">
+							<div class="accordion-inner">
+								<canvas id="chart-tax" width="290" height="150"></canvas>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group" style="margin-top:5px;">
+						<div id="disp-charity-bkg" class="accordion-heading">
+							<a id="disp-charity-toggle" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#disp-dataGroup" href="#collapseTwo">
+								<div class="row">
+									<div class="col-xs-9">
+										Charity Donations
+									</div>
+									<div class="col-xs-3">
+										<span id="disp-charity" class="fui-triangle-down-small pull-right"></span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div id="collapseTwo" class="accordion-body collapse in">
+							<div class="accordion-inner">
+								<canvas id="chart-charity" width="150" height="150" style="cursor:pointer;"></canvas>
+								<div class="row">
+									<div class="col-xs-2" id="chart-curCol" style="padding-left:10ps;width:30px;height:30px;padding-top:10px;">
+									
+									</div>
+									<div class="col-xs-8" id="chart-curLoc" style="font-size:60%;">
+									
+									</div>
+									<div class="col-xs-2" id="chart-curVal">
+									
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="logged-out" style="display:none;text-align:center;">
+			<form id="login-form" method="post">
+				<div class="formField form-group">
+					<input type="text" id="loginEmail" value="desmondcheongzx@gmail.com" name="email" placeholder="Email..." class="form-control">
+				</div>
+				<div class="formField form-group">
+					<input type="password" id="loginPassword" value="password" name="password" placeholder="Password..." class="form-control">
+				</div>
+				<a id="loginButton" value="submit" class="btn btn-block btn-lg btn-danger">Login!</a>
+			</form>
+		</div>
+		
+		<!-- Javascript Scripts -->
+		<script src="dist/js/vendor/jquery.min.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/jquery.slimscroll.min.js"></script>
+		<script src="js/Chart.min.js"></script>
+		<script src="js/tinycolor.js"></script>
+		<script src="dist/js/vendor/video.js"></script>
+		<script src="dist/js/flat-ui.min.js"></script>
+		<script src="docs/assets/js/application.js"></script>
+		<script src="js/popup.js"></script>
+	</body>
+</html>

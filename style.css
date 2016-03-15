@@ -1,0 +1,15 @@
+body{
+	text-align: center;
+    background-image: url("tile.jpg");
+    background-repeat: repeat-y repeat-x;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+.thin{
+	font-weight:200;
+}
+

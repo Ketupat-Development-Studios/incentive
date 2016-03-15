@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link href="dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+		<link href="dist/css/flat-ui.css" rel="stylesheet">
+		<link href="docs/assets/css/demo.css" rel="stylesheet">
+
+		<link href="css/popup.css" rel="stylesheet">
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+		<!--[if lt IE 9]>
+		  <script src="dist/js/vendor/html5shiv.js"></script>
+		  <script src="dist/js/vendor/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="header">
+			<img src="profile.png" alt="logo" class="img-circle xCenter" style="height:50px;width:50px;" />
+			<a id="switchState" class="btn btn-block btn-lg btn-primary">Switch</a>
+		</div>
+		
+		<div id="logged-in" style="display:none;" style="text-align:center;">
+			<p> Welcome User </p>
+			<div class="row">
+				<p class="col-xs-8"> Total Amount Taxed: </p>
+				<p class="col-xs-4" id='disp-tax'> $00.00 </p>
+			</div>
+			<div id="disp-data">
+				<div id="disp-header" class="disp-closed">
+					<p id="disp-switch" class="pull-right" style="cursor:pointer;">-</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="logged-out" style="text-align:center;">
+			<p> Keynes Purchase System </p>
+			<form id="login-form" method="post">
+				<div class="formField form-group">
+					<input type="text" id="loginEmail" value="desmondcheongzx@gmail.com" name="email" placeholder="Email..." class="form-control">
+				</div>
+				<div class="formField form-group">
+					<input type="password" id="loginPassword" value="password" name="password" placeholder="Password..." class="form-control">
+				</div>
+				<a id="button" class="btn btn-block btn-lg btn-danger">Login!</a>
+			</form>
+		</div>
+		
+		<!-- Javascript Scripts -->
+		<script src="dist/js/vendor/jquery.min.js"></script>
+		<script src="dist/js/vendor/video.js"></script>
+		<script src="dist/js/flat-ui.min.js"></script>
+		<script src="docs/assets/js/application.js"></script>
+		<script src="js/popup.js"></script>
+	</body>
+</html>

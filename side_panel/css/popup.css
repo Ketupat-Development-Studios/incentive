@@ -1,0 +1,26 @@
+body {
+	padding: 5px;
+}
+#header {
+	width: 300px;
+}
+.xCenter {
+	margin: 0 auto;
+	text-align: center;
+}
+.img-circle {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.formField {
+	margin: 0px;
+	margin-bottom: 5px;
+}
+.disp-closed {
+	background-color: #E74C3C;
+	width: 100%;
+}
+.disp-open {
+	background-color: #2ECC71;
+	width: 100%;
+}

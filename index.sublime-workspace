@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"who",
+				"whoToInsult"
+			],
+			[
+				"act",
+				"actualQuotes"
+			],
+			[
+				"good",
+				"goodSaying"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"sour",
+				"sourceObject"
+			],
+			[
+				"sou",
+				"sourceObject"
+			],
+			[
+				"quote",
+				"quoteObject"
+			],
+			[
+				"poss",
+				"possibleMessages"
+			],
+			[
+				"nice",
+				"niceLookingString"
+			],
+			[
+				"con",
+				"consultPHP"
+			],
+			[
+				"response",
+				"responseType"
+			],
+			[
+				"check",
+				"checkCustomDict"
+			],
+			[
+				"cus",
+				"customDict"
+			],
+			[
+				"list",
+				"listedString"
+			],
+			[
+				"hang",
+				"hangmanSample"
+			],
+			[
+				"wh",
+				"whereIsTheSpace"
+			],
+			[
+				"js",
+				"jsonStuff"
+			],
+			[
+				"urba",
+				"urbanExample"
+			],
+			[
+				"urb",
+				"urbanDefinition"
+			],
+			[
+				"start",
+				"startHangman"
+			],
+			[
+				"hangm",
+				"hangmanSample"
+			],
+			[
+				"hangman",
+				"hangmanArt"
+			],
+			[
+				"exte",
+				"exterminateAndScroll"
+			],
+			[
+				"un",
+				"unluckyFellow"
+			],
+			[
+				"funny",
+				"funnyStuff"
+			],
+			[
+				"funn",
+				"funnyStuff"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package re",
+				"Package Control: Remove Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/huey/telegram/py-tg/bot.py",
+		"/home/huey/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/huey/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/huey/telegram/py-tg/test.py",
+		"/home/huey/telegram/php/api.php",
+		"/home/huey/telegram/php/connect.php",
+		"/etc/php5/apache2/php.ini",
+		"/tmp/.fr-oI7LOW/libs/fiximports.py",
+		"/tmp/.fr-BkRFp9/libs/fiximports.py",
+		"/tmp/.fr-sObFlM/libs/__init__.py",
+		"/tmp/.fr-dHZ6UI/libs/MergeUtils.py",
+		"/tmp/.fr-DLnA3z/libs/MergeUtils.py",
+		"/tmp/.fr-tPGxDP/libs/fiximports.py",
+		"/home/huey/telegram/py-tg/db/main",
+		"/home/huey/jioMe/www/js/sources/onlineOffline.js",
+		"/home/huey/jioMe/www/index.html",
+		"/home/huey/jioMe/www/offline.html",
+		"/home/huey/jioMe/www/js/sources/checkConnection.js",
+		"/home/huey/jioMe/www/js/compiled.php",
+		"/home/huey/jioMe/www/js/sources/whineAboutBeingOffline.js",
+		"/home/huey/jioMe/www/css/sources/materialize.min.css",
+		"/home/huey/jioMe/www/css/idk what these are/css.css",
+		"/home/huey/jioMe/www/css/idk what these are/index.css",
+		"/home/huey/jioMe/www/js/idk what these are/index.js",
+		"/home/huey/jioMe/www/js/compiled.js",
+		"/home/huey/jioMe/www/js/telephonenumber.js",
+		"/home/huey/jioMe/www/js/compileJS.sh",
+		"/home/huey/jioMe/www/css/compileCSS.sh",
+		"/home/huey/jioMe/www/css/custom-styles.css",
+		"/home/huey/jioMe/www/css/compiled.php",
+		"/home/huey/jioMe/www/css/compiled.css",
+		"/home/huey/jioMe/www/css/sources/roboto-slab.css",
+		"/home/huey/jioMe/www/css/sources/index.css",
+		"/home/huey/telegram/py-tg/hangman.py",
+		"/home/huey/telegram/py-tg/dataGrabbing.py",
+		"/home/huey/telegram/py-tg/wordFunctions.py",
+		"/home/huey/telegram/py-tg/modules/hangman.py",
+		"/home/huey/telegram/py-tg/quotes/quotes.txt",
+		"/home/huey/telegram/py-tg/fibo.py",
+		"/home/huey/telegram/tg/bin/output",
+		"/home/huey/Downloads/main/.htaccess",
+		"/home/huey/palette/palette/index.php",
+		"/home/huey/telegram/py-tg/urbandict.py",
+		"/home/huey/telegram/py-tg/temp",
+		"/home/huey/telegram/py-tg/wordlists/BB03.txt",
+		"/home/huey/telegram/py-tg/wordlists/rawr.txt",
+		"/home/huey/telegram/py-tg/googleSpreadsheets.py",
+		"/home/huey/telegram/py-tg/wordlists/satWordList.txt",
+		"/home/huey/telegram/py-tg/wordlists/wordsEn.txt",
+		"/home/huey/telegram/py-tg/wordlists/magic.txt",
+		"/home/huey/telegram/py-tg/wordlists/4000.csv",
+		"/home/huey/telegram/py-tg/chatterbotapi.py",
+		"/home/huey/Downloads/index.html",
+		"/home/huey/write/google.py",
+		"/home/huey/write/css/styles.css",
+		"/home/huey/write/js/useless.js",
+		"/home/huey/write/index.html",
+		"/home/huey/Downloads/useless.js",
+		"/home/huey/write/query.js",
+		"/home/huey/wordbase-solver/wordbase.php",
+		"/home/huey/wordbase-solver/saveGame.php",
+		"/home/huey/wordbase-solver/python-backend.php",
+		"/home/huey/Downloads/ketupat-website/deploy.php",
+		"/home/huey/wordbase-solver/index.php",
+		"/home/huey/write/ajax.php",
+		"/home/huey/write/js/path.min.js",
+		"/home/huey/write/login.html",
+		"/home/huey/write/css/pen.css",
+		"/home/huey/write/js/md2html.js",
+		"/home/huey/ketupat-website/js/default.js",
+		"/home/huey/ketupat-website/js/modernizr.js",
+		"/home/huey/ketupat-website/css/style.css",
+		"/home/huey/Downloads/autocrack4.4.sh",
+		"/home/huey/.cache/.fr-YEcJYi/password-heslo.txt",
+		"/home/huey/Desktop/RJC/WiFiPasswordDecryptor/WiFiPasswordDecryptor/Readme.html",
+		"/home/huey/Downloads/csc/index.php",
+		"/home/huey/Desktop/RJC/WiFiPasswordDecryptor/WiFiPasswordDecryptor/SecurityXploded_License.rtf",
+		"/home/huey/palette14/index.php",
+		"/etc/apache2/apache2.conf",
+		"/home/huey/.ssh/known_hosts"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"mysqli",
+			"rearrange",
+			"hangman[group][4]",
+			"hangman[group][3]",
+			"hangman[group][2]",
+			"hangman[group][1]",
+			"hangman[group][0]",
+			"../font/",
+			"mymessage",
+			"sayYouWinHangman",
+			",hangman",
+			"makeListFromFile",
+			"hangman",
+			"stophangman",
+			"continuehangman",
+			"starthang",
+			"stophang",
+			"continueHangman",
+			"starthang",
+			"[ ].*$",
+			"[ v].*$",
+			"^[ v]",
+			"^ ",
+			"^\\n",
+			"^.{0,5}$",
+			"lastmessage",
+			"\\n",
+			"\\n\\n",
+			"^.{1,5}$",
+			"function"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"hangman[group][\"guessed-letters\"]",
+			"hangman[group][\"total-guesses\"]",
+			"hangman[group][\"wrong-guesses\"]",
+			"hangman[group][\"guess-progress\"]",
+			"hangman[group][\"word\"]",
+			"../fonts/",
+			"",
+			"\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"bot.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
